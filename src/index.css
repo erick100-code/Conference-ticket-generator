@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'main';
+    src: url('/font/Inconsolata-VariableFont_wdth,wght.ttf');
+}
+html, body {
+    font-family: 'main';
+}
