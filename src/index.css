@@ -4,6 +4,14 @@
     font-family: 'main';
     src: url('/font/Inconsolata-VariableFont_wdth,wght.ttf');
 }
+
 html, body {
+    overflow-x: hidden;
+
+    background-image: url("/images/background-mobile.png");
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    
     font-family: 'main';
 }
