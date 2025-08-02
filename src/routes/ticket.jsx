@@ -19,7 +19,7 @@ const Tick = () => {
     return (
         <div className="min-h-screen w-full flex flex-col bg-cover bg-no-repeat bg-right-bottom relative" style={{backgroundImage: `url(${base}images/background-mobile.png)` }}>
             <div className="overflow-hidden w-full h-full absolute">
-                <div className='bg-cover bg-no-repeat  w-screen h-[900px] bg-center absolute z-0 top-0 left-0' style={{backgroundImage: `${base}images/pattern-lines.svg`}}></div>
+                <div className='bg-cover bg-no-repeat  w-screen h-[900px] bg-center absolute z-0 top-0 left-0' style={{backgroundImage: `url(${base}images/pattern-lines.svg)`}}></div>
                 
                 <div className='absolute w-[150px] h-[150px] top-[-40px] left-[-30px]'>
                     <img src={`${base}images/pattern-circle.svg`} alt="circulo"  className='object-cover'/>
