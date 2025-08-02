@@ -19,30 +19,30 @@ const Tick = () => {
                 <div className='bg-[url("/Conference-ticket-generator/images/pattern-lines.svg")] bg-cover bg-no-repeat  w-screen h-[900px] bg-center absolute z-0 top-0 left-0'></div>
                 
                 <div className='absolute w-[150px] h-[150px] top-[-40px] left-[-30px]'>
-                    <img src="/Conference-ticket-generator/Conference-ticket-generator/images/pattern-circle.svg" alt="circulo"  className='object-cover'/>
+                    <img src="/Conference-ticket-generator/images/pattern-circle.svg" alt="circulo"  className='object-cover'/>
                 </div>
                 <div className='absolute w-[150px] h-[150px] top-[640px] right-[-80px]'>
-                    <img src="/Conference-ticket-generator/Conference-ticket-generator/images/pattern-circle.svg" alt="circulo"  className='object-cover'/>
+                    <img src="Conference-ticket-generator/images/pattern-circle.svg" alt="circulo"  className='object-cover'/>
                 </div>
                 <div className='w-[140px] h-[140px] absolute top-7 right-0'>
-                    <img src="/Conference-ticket-generator/Conference-ticket-generator/images/pattern-squiggly-line-top.svg" alt="falha ao carregar imagem" className='object-cover' />
+                    <img src="Conference-ticket-generator/images/pattern-squiggly-line-top.svg" alt="falha ao carregar imagem" className='object-cover' />
                 </div>
                 <div className='w-[300px] h-auto absolute bottom-[0px] left-0 z-0'>
-                    <img src="/Conference-ticket-generator/Conference-ticket-generator/images/pattern-squiggly-line-bottom-mobile-tablet.svg" alt="falha ao carregar imagem"  className='object-cover'/>
+                    <img src="/Conference-ticket-generator/images/pattern-squiggly-line-bottom-mobile-tablet.svg" alt="falha ao carregar imagem"  className='object-cover'/>
                 </div>
             </div>
                 
             <div className="text-center z-10 h-full w-full text-white flex flex-col items-center pt-10 px-4 gap-[30px_0px]">
-                <div><img src="/Conference-ticket-generator/Conference-ticket-generator/images/logo-full.svg" alt="logo"  /></div>
+                <div><img src="Conference-ticket-generator/images/logo-full.svg" alt="logo"  /></div>
                 <h1 className="text-[32px] text-[white] lg:text-5xl lg:max-w-[660px]">Congrats, <strong className="linename">{data.name}</strong> Your ticket is ready.</h1>
                 <p className="text-[#ffffffd2] text-[20px] w-[90%] lg:w-[40%]">
                     We've emailed your ticket to <strong className="text-[#f37362] font-normal">{data.email}</strong> and will send updates in the run up to the event.
                 </p>
                 <div className="relative landscape:pb-7 mt-20">
-                    <img src="/Conference-ticket-generator/Conference-ticket-generator/images/pattern-ticket.svg" alt="" className="lg:h-[250px]"/>
+                    <img src="/Conference-ticket-generator/images/pattern-ticket.svg" alt="" className="lg:h-[250px]"/>
                     <div className="absolute top-[20px] left-[20px] flex flex-col gap-[40px_0px] landscape:gap-[120px_0px] lg:landscape:gap-[80px]">
                         <div className="flex gap-[0px_20px]">
-                            <img src="/Conference-ticket-generator/Conference-ticket-generator/images/logo-mark.svg" alt="" />
+                            <img src="/Conference-ticket-generator/images/logo-mark.svg" alt="" />
                             <div className="">
                                 <h1 className="text-2xl capitalize text-left font-bold">coding conf</h1>
                                 <p>
@@ -54,7 +54,7 @@ const Tick = () => {
                             <img src={twoimg} alt="falha ao carregar a imagem"  className="object-cover w-[50px] h-[50px] rounded-[10px]"/>
                             <div>
                                 <h2 className="text-2xl font-semibold truncate max-w-[370px] portrait:max-w-[245px]">{data.name}</h2>
-                                <p className="flex gap-[0px_5px] truncate max-w-[370px] portrait:max-w-[230px]"><span><img src="/Conference-ticket-generator/Conference-ticket-generator/images/icon-github.svg" alt="" /></span>{data.git}</p>
+                                <p className="flex gap-[0px_5px] truncate max-w-[370px] portrait:max-w-[230px]"><span><img src="/Conference-ticket-generator/images/icon-github.svg" alt="" /></span>{data.git}</p>
                             </div>
                         </div>
                     </div>

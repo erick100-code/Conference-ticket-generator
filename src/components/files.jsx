@@ -15,6 +15,7 @@ const Files = () => {
 
     const {alterarimg} = useContext(Contexto)
 
+    
     const readFile = (file) => {
         if (file) {
             const novaLeitura = new FileReader()
