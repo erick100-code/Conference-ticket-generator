@@ -8,14 +8,18 @@ import { Contextprovider } from './context/context.jsx'
 
 const rot = createBrowserRouter([
   {
-    path:"/Conference-ticket-generator/",
+    path:"/",
     element: <App/>
   },
   {
-    path:"/Conference-ticket-generator/ticket",
+    path:"/ticket",
     element: <Tick />
   }
-])
+],
+  {
+    basename: "/Conference-ticket-generator"
+  }
+)
 
 createRoot(document.getElementById('root')).render(
 
