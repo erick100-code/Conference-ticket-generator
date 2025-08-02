@@ -6,12 +6,21 @@
 }
 
 html, body {
+    min-height: 100vh;
     overflow-x: hidden;
 
-    background-image: url("/images/background-mobile.png");
-    background-size: cover;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    
     font-family: 'main';
+}
+
+html, body, #root {
+    min-height: 100vh;
+    height: auto;
+}
+
+.linename {
+    background-image: linear-gradient(to right, #f37362, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
