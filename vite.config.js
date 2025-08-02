@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/Conference-ticket-generator/"
+  base: "/Conference-ticket-generator/",
 })
