@@ -67,7 +67,7 @@ const Files = () => {
                     >
                         <input ref={inp} type="file" name="file" id={inpID} onChange={(event) => readFile(event.target.files[0])} className="hidden"/>
                         <div className="bg-[#ffffff28] border-[#e32afb5d] border rounded-2xl">
-                            <img ref={img} src="/images/icon-upload.svg" alt="image upload" className="rounded-2xl w-[60px] h-[60px] object-cover" />
+                            <img ref={img} src="/Conference-ticket-generator/images/icon-upload.svg" alt="image upload" className="rounded-2xl w-[60px] h-[60px] object-cover" />
                         </div>
                         <label ref={lab} htmlFor={inpID} className="flex flex-col justify-center items-center gap-[15px_0px] z-10">
                             <span className="text-[20px] cursor-pointer">Drag and drop or click to upload</span>
@@ -75,7 +75,7 @@ const Files = () => {
                     
                         <div ref={bots} className="gap-[0px_15px] hidden z-10">
                             <Bot onClick={() => {
-                                img.current.src = "/images/icon-upload.svg"
+                                img.current.src = "/Conference-ticket-generator/images/icon-upload.svg"
                                 bots.current.classList.add('hidden')
                                 lab.current.classList.replace('hidden', 'flex')
                                 alterarimg("")
