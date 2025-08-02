@@ -19,27 +19,27 @@ const App = () => {
 
 
     return (
-    <div className=' w-screen min-h-screen overflow-x-hidden bg-[url("/images/background-mobile.png")] bg-cover bg-no-repeat bg-right-bottom'>
+    <div className=' w-screen min-h-screen overflow-x-hidden bg-cover bg-no-repeat bg-right-bottom' style={{ backgroundImage: `url(${base}images/background-mobile.png)` }}>
             <section className='text-white flex flex-col items-center gap-[30px_0px] p-5 pt-10 pb-28 relative'>
-                <div className='bg-cover bg-no-repeat  w-screen h-[1010px] bg-center absolute z-0 top-0 left-0' style={{ backgroundImage: `${base}/images/pattern-lines.svg` }}></div>
+                <div className='bg-cover bg-no-repeat  w-screen h-[1010px] bg-center absolute z-0 top-0 left-0' style={{ backgroundImage: `${base}images/pattern-lines.svg` }}></div>
         
                 <div className='absolute w-[150px] h-[150px] top-[-40px] left-[-30px] lg:w-[200px] lg:h-[200px] lg:left-[50px]'>
-                <img src={`${base}/images/pattern-circle.svg`} alt="circulo"  className='object-cover'/>
+                <img src={`${base}images/pattern-circle.svg`} alt="circulo"  className='object-cover'/>
                 </div>
             
                 <div className='absolute w-[150px] h-[150px] top-[640px] right-[-80px] lg:right-[130px] lg:top-[550px] lg:w-[200px] lg:h-[200px]'>
-                <img src={`${base}/images/pattern-circle.svg`} alt="circulo"  className='object-cover'/>
+                <img src={`${base}images/pattern-circle.svg`} alt="circulo"  className='object-cover'/>
                 </div>
             
                 <div className='w-[140px] h-[140px] lg:h-[400px] lg:w-[400px] absolute top-7 right-0'>
-                <img src={`${base}/images/pattern-squiggly-line-top.svg`} alt="falha ao carregar imagem" className='object-cover' />
+                <img src={`${base}images/pattern-squiggly-line-top.svg`} alt="falha ao carregar imagem" className='object-cover' />
                 </div>
             
                 <div className='w-[400px] absolute bottom-[-50px] left-0 z-0 lg:w-[800px] lg:bottom-0'> 
-                <img ref={imgf} src={`${base}/images/pattern-squiggly-line-bottom-mobile-tablet.svg`} alt="falha ao carregar imagem"  className='object-cover'/>
+                <img ref={imgf} src={`${base}images/pattern-squiggly-line-bottom-mobile-tablet.svg`} alt="falha ao carregar imagem"  className='object-cover'/>
                 </div>
         
-                <img src={`${base}/images/logo-full.svg`} alt="logo da imagem" className='w-[200px] h-auto object-cover mb-6' />
+                <img src={`${base}images/logo-full.svg`} alt="logo da imagem" className='w-[200px] h-auto object-cover mb-6' />
             
                 <h1 className='text-center text-3xl font-extrabold capitalize lg:text-5xl lg:max-w-[750px]'>your journey to coding conf 2025 starts here!</h1>
 
