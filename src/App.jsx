@@ -21,7 +21,7 @@ const App = () => {
     return (
     <div className=' w-screen min-h-screen overflow-x-hidden bg-cover bg-no-repeat bg-right-bottom' style={{ backgroundImage: `url(${base}images/background-mobile.png)` }}>
             <section className='text-white flex flex-col items-center gap-[30px_0px] p-5 pt-10 pb-28 relative'>
-                <div className='bg-cover bg-no-repeat  w-screen h-[1010px] bg-center absolute z-0 top-0 left-0' style={{ backgroundImage: `${base}images/pattern-lines.svg` }}></div>
+                <div className='bg-cover bg-no-repeat  w-screen h-[1010px] bg-center absolute z-0 top-0 left-0' style={{ backgroundImage: `url(${base}images/pattern-lines.svg)` }}></div>
         
                 <div className='absolute w-[150px] h-[150px] top-[-40px] left-[-30px] lg:w-[200px] lg:h-[200px] lg:left-[50px]'>
                 <img src={`${base}images/pattern-circle.svg`} alt="circulo"  className='object-cover'/>
