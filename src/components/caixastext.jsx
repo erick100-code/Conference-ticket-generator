@@ -67,20 +67,26 @@ const Caixastext = () => {
             event.preventDefault()
             envio()
         }} action={"#"} className="self-start flex flex-col gap-[40px_0px] w-full z-10">
-            <button className="flex flex-col gap-[10px_0px] z-10 text-left" onClick={(event) => event.preventDefault()}>
+            <div className="flex flex-col gap-[10px_0px] z-10 text-left">
                 <label htmlFor={name} className="capitalize text-[20px]">full name</label>
-                <Inputs ref={nameINP}  id={name} type={"text"} required />
-            </button>
+                <button className="rounded-[10px]" onClick={(event) => event.preventDefault()}>
+                    <Inputs ref={nameINP}  id={name} type={"text"} required />
+                </button>
+            </div>
             
-            <button className="flex flex-col gap-[10px_0px] z-10 text-left" onClick={(event) => event.preventDefault()}>
+            <div className="flex flex-col gap-[10px_0px] z-10 text-left">
                 <label htmlFor={email} className="capitalize text-[20px]">email addreress</label>
-                <Inputs ref={emaiINP} id={email} type={"email"} placeholder={"example@email.com"} />
+                <button className="rounded-[10px]" onClick={(event) => event.preventDefault()}>
+                    <Inputs ref={emaiINP} id={email} type={"email"} placeholder={"example@email.com"} />
+                </button>
                 <span ref={span1} className="text-[#ff00009a] hidden">por favor digite um email valido</span>
-            </button>
+            </div>
             
-            <div className="flex flex-col gap-[10px_0px] z-10 text-left" onClick={(event) => event.preventDefault()}>              
+            <div className="flex flex-col gap-[10px_0px] z-10 text-left">              
                 <label htmlFor={github} className="capitalize text-[20px]">gitHub username</label>
-                <Inputs ref={gitINP} id={github} type={"text"} required placeholder={"@yourusername"} />
+                <button className="rounded-[10px]" onClick={(event) => event.preventDefault()}>
+                    <Inputs ref={gitINP} id={github} type={"text"} required placeholder={"@yourusername"} />
+                </button>
                 <span ref={span2} className="text-[#ff00009a] hidden">o nome deve começar com um <strong>@</strong></span>
             </div>
 
